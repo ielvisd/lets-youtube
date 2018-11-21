@@ -13,7 +13,7 @@ server.get('/', (req, res) => {
   res.json({ api: 'up' });
 });
 
-server.get('/test', function(req, res) {
+server.get('/index', function(req, res) {
   res.sendFile('/quickstart.html', { root: __dirname });
 });
 
