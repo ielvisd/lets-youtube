@@ -14,7 +14,7 @@ server.get('/', (req, res) => {
 });
 
 server.get('/index', function(req, res) {
-  res.sendFile('/quickstart.html', { root: __dirname });
+  res.sendFile('./app/src/views/quickstart.html', { root: __dirname });
 });
 
 server.listen(9000, () => console.log('\n== Port 9k ==\n'));

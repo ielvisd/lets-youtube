@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import './views/index.css';
 import App from './views/App';
-// import auth from './views/auth';
+import auth from './views/auth';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 import { createStore, applyMiddleware, compose } from 'redux';
@@ -25,7 +25,8 @@ ReactDOM.render(
   <Provider store={store}>
     <Router>
       <Route path="/" component={App} />
-      {/* <Route path="/login" component={auth} /> */}
+
+      {/* <Route path="/app" component={App} /> */}
     </Router>
   </Provider>,
   document.getElementById('root')
