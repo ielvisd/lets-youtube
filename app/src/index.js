@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import './views/index.css';
 import App from './views/App';
-import auth from './views/auth';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 import { createStore, applyMiddleware, compose } from 'redux';
